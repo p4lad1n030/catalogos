@@ -76,7 +76,7 @@ h1.layout{
     padding: 8px;/* 8 */
     background-color: black;
     color: white;
-    text-align: left;
+    text-align: center;
 
 }
 h1.layout:hover {
@@ -88,6 +88,7 @@ h2.layout{
     margin-right: 10px;/* 10 */
     margin-left: 10px;/* 10 */
     color: black;
+    text-align: center;
 }
 h2.layout:hover {
     transition: 0.3s;
