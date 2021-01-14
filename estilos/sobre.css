@@ -1,0 +1,67 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'font-cab';
+    src:url(../fonts/Lato/Lato-Bold.ttf)
+}
+body{
+    max-width: 100%;/* max width 1200*/ 
+    background-image: url('/imagens/fundowindows.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+header {
+    height: 50px;
+    width: 100%;
+    min-width: 50%;
+}
+#corpo {
+    width: 80%;
+    margin:114px 10% -21px 10%;
+}
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+ li{
+    margin: 10px;
+    padding: 10px;
+    background-color: black;
+    text-transform: uppercase;
+}
+li:hover {
+    transition: 0.7s;
+    padding: 20px;
+}
+li a {
+    padding: 5px;
+    color: white;
+    text-decoration: none;
+}
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+#corpo p {
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: 1.125em;
+    text-align: justify;
+    line-height: 1.38888888em;
+}
+a {
+    text-decoration: none;
+}
+#rodape {
+    display: flex;
+    flex-basis: 1;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}

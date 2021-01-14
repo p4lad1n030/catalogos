@@ -1,0 +1,114 @@
+@charset "UTF-8";
+html {
+    background-color: black;
+}
+body{
+    background-image: url('/imagens/fundo.jpg');
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-attachment: fixed;
+    background-position: 50% 32%;
+    width: 100%;
+}
+header {
+    height: 50px;
+    width: 100%;
+    min-width: 50%;
+}
+strong#tex {
+    margin-left: 12%;
+    font-size: 22pt;
+    color: white;
+    text-justify: auto;
+}
+p {
+    font-size: 18pt;
+    color: white;
+    text-align: justify;
+    text-indent: 30px;/* 30px */
+    margin: auto 10px auto 10px;
+}
+div#titulo {
+    text-align: center;
+    margin: 111px 50px -18px
+}
+div#titulo h1 {
+    color: white;
+    text-shadow: 1px 0px 2px white;  
+}
+div#titulo h2 {
+    color: white;
+    text-shadow: 1px 0px 2px white;  
+}
+ul#menu {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+ul#menu li {
+    text-transform: uppercase;
+    padding: 10px;
+    margin: 10px;
+    color: white;
+    background-color: black;
+    transition: 0.8s;
+}
+li a.menu{
+    color: white;
+}
+li a.men{
+    color: white;
+}
+li a.men:hover{
+    color: black;
+}
+ul#menu li:hover {
+    background-color: darkgrey;
+    padding: 20px;
+}
+a{
+    text-decoration: none;
+    list-style: none;
+}
+h1.tit {
+    color: white;
+    text-align: center;
+
+}
+article#exe {
+    margin:-9px -25px -11px 30px;
+    max-width: 83.3333333333%;
+}
+div#a {
+    margin: 35px -12% 35px 12%;
+}
+div#b {
+    margin: 35px -12% 35px 12%;
+}
+div#c {
+    margin: 35px -12% 35px 12%;
+}
+div#d {
+    margin: 35px -12% 35px 12%;
+}
+div#e {
+    margin: 35px -12% 35px 12%;
+}
+img, img.footer {
+    max-width: 80%;
+}
+h1.layout{
+    margin-right: 10px;/* 10 */
+    margin-left: 10px;/* 10 */
+    color: white;
+    text-align: left;
+    text-align: center;
+}
+#rodape {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
