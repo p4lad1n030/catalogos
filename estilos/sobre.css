@@ -5,7 +5,7 @@
 }
 body{
     max-width: 100%;/* max width 1200*/ 
-    background-image: url('/imagens/fundowindows.jpg');
+    background-image: url('imagens/fundowindows.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
