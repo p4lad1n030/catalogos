@@ -63,6 +63,7 @@ li a.men:hover{
 ul#menu li:hover {
     background-color: darkgrey;
     padding: 20px;
+    border-radius: 30px;
 }
 a{
     text-decoration: none;

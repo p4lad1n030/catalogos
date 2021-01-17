@@ -43,6 +43,7 @@ ul#menu {
 li:hover {
     transition: 0.7s;
     padding: 20px;
+    border-radius: 30px;
 }
 li a {
     padding: 5px;

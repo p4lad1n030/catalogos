@@ -55,6 +55,7 @@ ul#menu li {
 ul#menu li:hover {
     background-color: darkgrey;
     padding: 20px;
+    border-radius: 30px;
 }
 div#cabecalho{
     margin: -15px auto;
