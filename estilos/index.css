@@ -44,6 +44,9 @@ ul#menu {
     justify-content: space-around;
 }
 ul#menu li {
+    width: 10%;
+    display: flex;
+    justify-content: space-around;
     border-radius: 20px;
     text-transform: uppercase;
     padding: 10px;
