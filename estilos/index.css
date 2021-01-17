@@ -36,11 +36,6 @@ header h2:hover{
     color: lightgray;
     text-shadow: 2px 2px 2px black;
 }
-nav#menu {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-}
 ul#menu {
     display: flex;
     align-items: center;
