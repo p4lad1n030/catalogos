@@ -67,7 +67,7 @@ div#cabecalho{
     background-image: url('../imagens/fundotorres.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: 50% 50%;
+    background-position: 0% 50%;
     background-attachment: fixed;
 }
 h1.layout{
