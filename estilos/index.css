@@ -36,6 +36,12 @@ header h2:hover{
     color: lightgray;
     text-shadow: 2px 2px 2px black;
 }
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
 ul#menu {
     display: flex;
     align-items: center;
@@ -43,22 +49,22 @@ ul#menu {
     flex-wrap: wrap;
     justify-content: space-around;
 }
-ul#menu li {
-    width: 10%;
-    display: flex;
-    justify-content: space-around;
+li{
     border-radius: 20px;
-    text-transform: uppercase;
-    padding: 10px;
     margin: 10px;
-    color: white;
-    background-color: black;
-    transition: 0.8s;
+    padding: 10px;
+    background-color: rgb(49, 191, 247);
+    text-transform: uppercase;
 }
-ul#menu li:hover {
-    background-color: darkgrey;
+li:hover {
+    transition: 0.7s;
     padding: 20px;
     border-radius: 30px;
+}
+li a {
+    padding: 5px;
+    color: white;
+    text-decoration: none;
 }
 div#cabecalho{
     margin: -15px auto;
@@ -147,4 +153,3 @@ a {
     flex-wrap: wrap;
     justify-content: space-around;
 }
-
