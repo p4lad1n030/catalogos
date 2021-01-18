@@ -64,10 +64,10 @@ div#cabecalho{
     margin: -15px auto;
     height: 620px;
     width: 100%;
-    background-image: url('../imagens/perfil.png');
+    background-image: url('../imagens/fundotorres.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    background-position: 50% 50%;
     background-attachment: fixed;
 }
 h1.layout{
