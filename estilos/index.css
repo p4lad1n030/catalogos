@@ -48,6 +48,10 @@ ul#menu {
     list-style: none;
     flex-wrap: wrap;
     justify-content: space-around;
+}a.menu:hover {
+    transition: 0.5s;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 2px;
 }
 li{
     border-radius: 20px;
