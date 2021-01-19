@@ -63,12 +63,8 @@ li:hover {
     padding: 20px;
     border-radius: 30px;
 }
-li a {
-    padding: 5px;
-    color: white;
+a.menu {
     text-decoration: none;
-}
-li a.menu{
     color: white;
 }
 div#cabecalho{
@@ -139,15 +135,6 @@ a.tex {
     font-size: 15pt;/* 15pt */
     font-family: sans-serif;
     margin-left: 3px;/* 3px */
-}
-a.menu {
-    text-decoration: none;
-    color: white;
-}
-a.menu:hover {
-    transition: 0.5s;
-    color: black;
-    text-shadow: 1px 1px 2px;
 }
 a {
     text-decoration: none;
